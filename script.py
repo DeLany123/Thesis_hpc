@@ -27,7 +27,7 @@ Arguments:
 import argparse
 import os
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import dataclass
 from typing import List, Tuple, Dict, Any
 
@@ -550,7 +550,7 @@ def main():
 
     fold_results: List[Dict[str, Any]] = [None] * args.k_folds
 
-    with ThreadPoolExecutor(max_workers=args.k_folds) as pool:
+    with ProcessPoolExecutor(max_workers=args.k_folds) as pool:
         future_to_fold = {}
         for fold_idx, (train_df, val_eps, test_eps) in enumerate(folds):
             future = pool.submit(

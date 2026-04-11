@@ -1,0 +1,32 @@
+#!/bin/bash -l
+#PBS -N rl_full_ew
+#PBS -l walltime=06:00:00
+#PBS -l mem=12gb
+#PBS -l nodes=1:ppn=20
+#PBS -o $VSC_HOME/Thesis_hpc/logs/full_ew.o$PBS_JOBID
+#PBS -e $VSC_HOME/Thesis_hpc/logs/full_ew.e$PBS_JOBID
+#PBS -m abe
+
+set -e
+
+ml purge
+module load Python/3.12.3-GCCcore-13.3.0
+source $VSC_DATA/venvs/thesis_env/bin/activate
+
+# Cap PyTorch/OpenMP threads — default inherits all 96 node cores which causes
+# massive thread spawn overhead on small SAC networks. 4 threads is optimal.
+export OMP_NUM_THREADS=4
+export MKL_NUM_THREADS=4
+export OPENBLAS_NUM_THREADS=4
+
+mkdir -p $VSC_HOME/Thesis_hpc/results
+mkdir -p $VSC_HOME/Thesis_hpc/logs
+
+cd $PBS_O_WORKDIR
+
+python script.py \
+    --agent PPO --steps 10000 --iterations 1 \
+    --folds-path $VSC_DATA/data/ --output-dir ./results/ 
+
+echo "Job completed successfully"
+deactivate
