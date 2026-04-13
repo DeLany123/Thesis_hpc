@@ -438,12 +438,25 @@ def _run_fold(
     evaluate on its validation episodes each time.
     """
     pid = os.getpid()
-    target_threads = int(os.environ.get('OMP_NUM_THREADS', 6))
+    target_threads = int(os.environ.get('OMP_NUM_THREADS', 4))
+    print(f"target_threads: {target_threads}")
+    # --- ENFORCE CPU AFFINITY ---
+    try:
+        start_core = fold_idx * target_threads
+        target_cores = set(range(start_core, start_core + target_threads))
+        os.sched_setaffinity(0, target_cores)
+    except Exception as e:
+        print(f"Could not set affinity: {e}")
+
     torch.set_num_threads(target_threads)
 
     # --- PURE OBSERVATION CODE ---
     def get_current_core():
-        return getattr(os, "sched_getcpu", lambda: None)()
+        try:
+            with open('/proc/self/stat') as f:
+                return int(f.read().split()[38])
+        except Exception:
+            return getattr(os, "sched_getcpu", lambda: None)()
 
     try:
         allowed_cores = sorted(list(os.sched_getaffinity(0)))
