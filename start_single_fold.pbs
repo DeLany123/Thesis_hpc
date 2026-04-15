@@ -1,0 +1,34 @@
+#!/bin/bash -l
+#PBS -N rl_fold
+#PBS -l walltime=06:00:00
+#PBS -l mem=12gb
+#PBS -l nodes=1:ppn=4
+#PBS -o $VSC_HOME/Thesis_hpc/logs/fold.o$PBS_JOBID
+#PBS -e $VSC_HOME/Thesis_hpc/logs/fold.e$PBS_JOBID
+#PBS -m abe
+
+set -e
+
+ml purge
+module load Python/3.12.3-GCCcore-13.3.0
+source $VSC_DATA/venvs/thesis_env/bin/activate
+
+# Use exactly the number of cores requested in the PBS header
+export OMP_NUM_THREADS=4
+export MKL_NUM_THREADS=4
+export OPENBLAS_NUM_THREADS=4
+
+mkdir -p $VSC_HOME/Thesis_hpc/results
+mkdir -p $VSC_HOME/Thesis_hpc/logs
+
+cd $PBS_O_WORKDIR
+
+# Uses the $FOLD variable injected by qsub
+python script_per_fold.py \
+    --agent PPO --steps 10000 --iterations 1 \
+    --fold $FOLD \
+    --folds-path $VSC_DATA/data/ --output-dir ./results/
+
+echo "Job for fold $FOLD completed successfully"
+deactivate
+
