@@ -1,7 +1,7 @@
-#!/bin/bash -l
-#PBS -N rl_fold
-#PBS -l walltime=06:00:00
-#PBS -l mem=12gb
+#/bin/bash -l
+#PBS -N rl_folid
+#PBS -l walltime=12:00:00
+#PBS -l mem=4gb
 #PBS -l nodes=1:ppn=4
 #PBS -o $VSC_HOME/Thesis_hpc/logs/fold.o$PBS_JOBID
 #PBS -e $VSC_HOME/Thesis_hpc/logs/fold.e$PBS_JOBID
@@ -25,7 +25,7 @@ cd $PBS_O_WORKDIR
 
 # Uses the $FOLD variable injected by qsub
 python script_per_fold.py \
-    --agent PPO --steps 10000 --iterations 1 \
+    --agent SAC --steps 500000 --iterations 4 \
     --fold $FOLD \
     --folds-path $VSC_DATA/data/ --output-dir ./results/
 
