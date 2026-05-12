@@ -377,7 +377,7 @@ def main():
 
         summary_df = pd.DataFrame([row])
         output_path = os.path.join(
-            args.output_dir, f"generic_model_fold{args.fold}_results.csv"
+            args.output_dir, f"generic_model_fold{args.fold}_{args.steps}_results.csv"
         )
         summary_df.to_csv(output_path, index=False)
         print(f"\nResults written to: {output_path}")
