@@ -1,0 +1,6 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) env/vsc/donphan     3) env/software/donphan
+  2) env/slurm/donphan   4) cluster/donphan
+slurmstepd: error: *** JOB 20304114 ON node4003.donphan.os CANCELLED AT 2026-05-11T16:51:26 ***

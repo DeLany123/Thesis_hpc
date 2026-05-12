@@ -1,4 +1,8 @@
 PPO
-	1_750_000 steps, hoger aantal iteraties want variantie was te groot
+	1_250_000 steps, hoger aantal iteraties want variantie was te groot
 
 	2_250_000
+
+DQN
+	2_500_000 steps, intra fold variantie blijft stijgen
+	2_750_000, zelfde reden

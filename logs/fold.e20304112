@@ -1,0 +1,7 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) env/vsc/donphan     3) env/software/donphan
+  2) env/slurm/donphan   4) cluster/donphan
+/var/spool/slurm/slurmd/job20304112/slurm_script: line 55: 3998493 Killed                  python generic_agent.py --steps 1000000 --iterations 6 --fold $FOLD --folds-path $VSC_DATA/data/ --output-dir ./results/
+slurmstepd: error: Detected 1 oom_kill event in StepId=20304112.batch. Some of the step tasks have been OOM Killed.
