@@ -25,7 +25,7 @@ cd $PBS_O_WORKDIR
 
 # Uses the $FOLD variable injected by qsub
 python generic_agent.py \
-	--steps 250000 --iterations 3 \
+	--steps 750000 --iterations 3 \
 	--fold $FOLD \
     --folds-path $VSC_DATA/data/ --output-dir ./results/
 
