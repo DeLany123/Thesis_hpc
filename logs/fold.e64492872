@@ -1,0 +1,37 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) env/vsc/doduo     3) env/software/doduo
+  2) env/slurm/doduo   4) cluster/doduo
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/apps/gent/RHEL9/zen2-ib/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/concurrent/futures/process.py", line 263, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kyukon/home/gent/461/vsc46170/Thesis_hpc/agent_scaling.py", line 543, in _run_fold
+    train_env = _apply_scaling(train_env, scaling_mode, scaling_method)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kyukon/home/gent/461/vsc46170/Thesis_hpc/agent_scaling.py", line 475, in _apply_scaling
+    env = RobustScalingWrapper(env, method=scaling_method)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kyukon/home/gent/461/vsc46170/Thesis_hpc/agent_scaling.py", line 251, in __init__
+    self.soc_max   = env.battery_capacity_mwh
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ContinuousActionWrapper' object has no attribute 'battery_capacity_mwh'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/kyukon/home/gent/461/vsc46170/Thesis_hpc/agent_scaling.py", line 781, in <module>
+    main()
+  File "/kyukon/home/gent/461/vsc46170/Thesis_hpc/agent_scaling.py", line 736, in main
+    fold_results[idx] = future.result()
+                        ^^^^^^^^^^^^^^^
+  File "/apps/gent/RHEL9/zen2-ib/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/apps/gent/RHEL9/zen2-ib/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+AttributeError: 'ContinuousActionWrapper' object has no attribute 'battery_capacity_mwh'
