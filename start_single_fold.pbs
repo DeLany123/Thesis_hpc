@@ -24,8 +24,8 @@ mkdir -p $VSC_HOME/Thesis_hpc/logs
 cd $PBS_O_WORKDIR
 
 # Uses the $FOLD variable injected by qsub
-python generic_agent_scaled.py\
-	--steps 500000 --iterations 1 \
+python generic_agent_v2.py\
+	--steps 500000 --iterations 3 \
 	--fold $FOLD \
     --folds-path $VSC_DATA/data/ --output-dir ./results/
 

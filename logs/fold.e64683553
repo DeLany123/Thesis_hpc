@@ -1,0 +1,6 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) env/vsc/doduo     3) env/software/doduo
+  2) env/slurm/doduo   4) cluster/doduo
+[2026-06-05T16:05:22.059] error: *** JOB 64683553 ON node3521.doduo.os CANCELLED AT 2026-06-05T16:05:22 DUE to SIGNAL Terminated ***
