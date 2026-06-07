@@ -1,0 +1,1601 @@
+Loading 5 folds from '/data/gent/461/vsc46170/data/' …
+  Fold 0: train=650,190 rows, val=26 eps, test=26 eps
+  Fold 1: train=648,450 rows, val=26 eps, test=26 eps
+  Fold 2: train=647,865 rows, val=26 eps, test=26 eps
+  Fold 3: train=647,805 rows, val=26 eps, test=26 eps
+  Fold 4: train=648,840 rows, val=26 eps, test=26 eps
+
+Generic SAC | fold 1 only | 25,000 steps | 5 iters | cap∈(5.0, 20.0) MWh | rate∈(2.5, 10.0) MW
+
+  [Fold 1] Run 1/5 — training finished in 218.3s
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 12561.68
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 10668.68
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 19945.70
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 10625.94
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 16385.78
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 14067.67
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 955.60
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 2911.26
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 954.62
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 5253.50
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 438.39
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 3165.47
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 3447.73
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 3119.47
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 2473.15
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: -20.77
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 441.85
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 1769.49
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 2892.78
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 789.53
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 129.78
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 64.18
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 694.14
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 33.40
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 156.19
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 33.02
+    Config A_small: €113,958.24
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 25638.30
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 21072.32
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 40906.13
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 21809.15
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 33485.49
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 28189.22
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 1908.10
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 6187.93
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 1953.05
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 10789.74
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 874.39
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 6380.87
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 6267.21
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 5704.28
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 4866.93
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 1368.86
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 794.24
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 3761.03
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 5877.05
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 1647.94
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 303.82
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 160.82
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1232.48
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 117.39
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 237.63
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 64.60
+    Config B_baseline: €231,598.97
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 51049.12
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 43578.60
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 80335.24
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 43352.05
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 65517.39
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 56140.87
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 3913.32
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 12196.57
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 3513.94
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 20895.36
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 1992.62
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 12771.97
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 12195.61
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 12301.07
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 10236.82
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 3575.55
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 1829.12
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 7054.23
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 11176.79
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 3184.49
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 562.46
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 184.06
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 2695.44
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 173.66
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 581.90
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 189.13
+    Config C_large: €461,197.39
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 35638.31
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 28354.10
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 57685.11
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 31957.94
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 41421.74
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 40192.09
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 2909.63
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 8812.02
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 2778.30
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 11757.66
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 1199.99
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 7336.38
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 7724.50
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 8342.34
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 7505.94
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 1723.33
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 1444.95
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 5410.05
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 8093.72
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 2475.45
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 301.19
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 244.83
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1292.17
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 77.14
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 436.49
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 154.26
+    Config D_high_c_rate: €315,269.61
+  [Fold 1] Run 2/5 — training finished in 215.0s
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 13501.31
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 11771.49
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 20857.68
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 11923.57
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 18535.30
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 14983.20
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 1044.74
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 3693.55
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 734.10
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 4414.19
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 552.40
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 3569.99
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 3129.40
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 3840.19
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 3359.82
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 1466.67
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 801.20
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 2478.70
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 3566.63
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 908.66
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 142.74
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 174.05
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 826.18
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 58.05
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 315.33
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 283.24
+    Config A_small: €126,932.38
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 27443.95
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 23250.98
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 42174.91
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 23547.12
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 36893.89
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 30719.73
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 2152.00
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 7662.74
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 1603.32
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 8505.51
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 1475.69
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 6682.05
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 6287.94
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 7659.51
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 7285.76
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 2965.26
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 1496.56
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 5121.90
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 7063.32
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 1900.30
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 329.68
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 303.21
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1606.35
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 151.48
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 581.18
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 421.38
+    Config B_baseline: €255,285.72
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 53611.44
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 46629.66
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 84231.75
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 47440.19
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 72960.13
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 60683.63
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 4232.10
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 15913.73
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 2885.73
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 17376.22
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 2513.36
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 13649.08
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 11485.35
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 15391.50
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 14702.90
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 5722.97
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 3497.61
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 10297.54
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 14076.34
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 3624.66
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 733.52
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 513.14
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 3188.82
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 243.51
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 1508.80
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 1128.69
+    Config C_large: €508,242.37
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 37913.40
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 28777.09
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 59075.34
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 33890.97
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 48057.95
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 42535.18
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 3044.74
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 10404.02
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 2252.31
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 10053.56
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 1699.13
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 8175.69
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 8255.85
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 10145.18
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 8143.57
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 4063.79
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 2636.59
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 6779.11
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 10403.79
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 2723.78
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 430.55
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 401.80
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1647.44
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 242.54
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 1033.98
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 996.16
+    Config D_high_c_rate: €343,783.51
+  [Fold 1] Run 3/5 — training finished in 209.9s
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 13517.76
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 11487.53
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 19992.54
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 11277.40
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 17553.73
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 14988.16
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 1087.23
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 3198.50
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 897.57
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 5336.80
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 613.35
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 3114.56
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 3518.42
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 3324.24
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 2834.51
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 1273.14
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 629.47
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 2114.62
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 3047.16
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 841.68
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 138.90
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 136.28
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 614.83
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 46.99
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 245.00
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 204.34
+    Config A_small: €122,034.73
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 27130.57
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 23003.67
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 39832.33
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 22733.45
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 34812.61
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 29962.49
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 2146.63
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 6316.19
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 1782.36
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 10806.01
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 1133.41
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 6211.31
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 6863.76
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 6511.62
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 5739.73
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 2662.58
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 1254.07
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 4206.60
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 6122.00
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 1691.88
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 271.31
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 217.10
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1245.69
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 128.54
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 560.37
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 428.93
+    Config B_baseline: €243,775.20
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 54284.86
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 46321.54
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 79745.19
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 45505.37
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 70344.43
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 60520.89
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 4382.12
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 12903.73
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 3676.00
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 21212.54
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 2374.12
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 12677.57
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 13674.44
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 13150.68
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 11338.64
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 5148.43
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 2487.94
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 8311.10
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 12016.27
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 3301.21
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 583.71
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 519.36
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 2452.04
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 258.11
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 1074.17
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 777.82
+    Config C_large: €489,042.28
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 36713.45
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 28735.25
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 57143.14
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 32708.99
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 42965.13
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 41574.36
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 3212.92
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 9280.84
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 2691.34
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 12321.91
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 1760.50
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 7767.70
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 8110.80
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 8550.60
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 7396.02
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 3788.27
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 1592.99
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 5949.33
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 8467.01
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 2455.73
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 438.89
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 384.20
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1289.65
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 218.03
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 683.05
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 523.60
+    Config D_high_c_rate: €326,723.71
+  [Fold 1] Run 4/5 — training finished in 211.7s
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 13682.63
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 12042.41
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 20616.24
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 11792.76
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 18317.85
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 15424.27
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 1119.27
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 3605.29
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 913.13
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 4734.99
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 871.76
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 3356.59
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 3064.04
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 3887.11
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 3793.42
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 1655.79
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 972.14
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 2918.16
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 4023.26
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 1016.33
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 158.45
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 161.20
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 800.59
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 64.35
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 478.22
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 465.89
+    Config A_small: €129,936.15
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 27148.67
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 23939.17
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 41337.10
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 23339.36
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 36689.94
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 30633.43
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 2245.49
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 7006.50
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 1635.08
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 9722.42
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 1749.85
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 6607.03
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 6219.61
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 7939.59
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 7472.41
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 3360.54
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 1919.64
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 5944.18
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 8178.75
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 2079.52
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 331.56
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 336.00
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1591.20
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 114.76
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 881.92
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 816.97
+    Config B_baseline: €259,240.70
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 53868.36
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 48341.75
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 82444.77
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 47527.06
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 72400.18
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 62751.41
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 4450.70
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 13996.42
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 3582.20
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 18977.93
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 3070.58
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 13403.33
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 12615.89
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 15496.22
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 14880.21
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 6248.90
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 3782.04
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 11672.18
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 15857.81
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 4130.26
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 640.35
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 681.95
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 3174.97
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 229.87
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 1783.93
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 1779.00
+    Config C_large: €517,788.25
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 38331.26
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 30556.70
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 59077.73
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 33626.59
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 46353.23
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 43816.04
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 3333.32
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 10613.32
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 2606.60
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 11188.58
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 2513.67
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 7540.43
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 8045.56
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 10071.31
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 10015.37
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 4951.23
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 2943.75
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 5841.18
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 11298.05
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 2873.11
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 456.10
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 510.73
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1659.95
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 191.14
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 1406.56
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 1261.08
+    Config D_high_c_rate: €351,082.61
+  [Fold 1] Run 5/5 — training finished in 212.3s
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 15166.11
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 12637.66
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 21586.89
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 14195.09
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 20069.13
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 15538.14
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 1114.76
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 4537.46
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 2673.32
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 4589.08
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 1378.76
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 4503.67
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 4984.04
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 4855.26
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 5007.96
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 1978.13
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 1374.23
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 3113.54
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 4616.93
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 949.78
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 302.60
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 428.94
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 668.56
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 64.16
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 1213.68
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 695.11
+    Config A_small: €148,242.99
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 29922.31
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 25676.58
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 43260.34
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 29082.68
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 40011.57
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 31575.29
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 2331.67
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 9446.20
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 5380.93
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 8881.13
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 2735.29
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 8843.48
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 9971.40
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 9921.13
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 10087.69
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 3989.74
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 2724.46
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 6215.85
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 9141.48
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 1959.96
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 655.18
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 814.08
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1320.34
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 127.33
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 2468.49
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 1311.53
+    Config B_baseline: €297,856.13
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 60699.88
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 50161.66
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 86031.43
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 57094.39
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 80324.30
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 63300.47
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 4552.79
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 18217.06
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 10814.73
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 18055.34
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 5615.96
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 18102.53
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 20332.65
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 19622.20
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 19612.97
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 7296.58
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 5175.91
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 12746.11
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 18337.00
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 3941.68
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 1215.83
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 1612.06
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 2575.20
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 220.73
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 4776.76
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 2809.97
+    Config C_large: €593,246.17
+Starting episode 1/26
+From 2024-05-29 00:00:00+00:00 to 2024-06-01 23:59:00+00:00
+Finished with total (scaled) reward: 41219.67
+Starting episode 2/26
+From 2024-06-26 00:00:00+00:00 to 2024-06-29 23:59:00+00:00
+Finished with total (scaled) reward: 31526.13
+Starting episode 3/26
+From 2024-07-20 00:00:00+00:00 to 2024-07-23 23:59:00+00:00
+Finished with total (scaled) reward: 61581.15
+Starting episode 4/26
+From 2024-08-17 00:00:00+00:00 to 2024-08-20 23:59:00+00:00
+Finished with total (scaled) reward: 39881.98
+Starting episode 5/26
+From 2024-09-14 00:00:00+00:00 to 2024-09-17 23:59:00+00:00
+Finished with total (scaled) reward: 50811.39
+Starting episode 6/26
+From 2024-10-08 00:00:00+00:00 to 2024-10-11 23:59:00+00:00
+Finished with total (scaled) reward: 44342.53
+Starting episode 7/26
+From 2024-11-05 00:00:00+00:00 to 2024-11-08 23:59:00+00:00
+Finished with total (scaled) reward: 3421.79
+Starting episode 8/26
+From 2024-11-29 00:00:00+00:00 to 2024-12-02 23:59:00+00:00
+Finished with total (scaled) reward: 12731.31
+Starting episode 9/26
+From 2024-12-27 00:00:00+00:00 to 2024-12-30 23:59:00+00:00
+Finished with total (scaled) reward: 7150.38
+Starting episode 10/26
+From 2025-01-24 00:00:00+00:00 to 2025-01-27 23:59:00+00:00
+Finished with total (scaled) reward: 10418.53
+Starting episode 11/26
+From 2025-02-17 00:00:00+00:00 to 2025-02-20 23:59:00+00:00
+Finished with total (scaled) reward: 3978.05
+Starting episode 12/26
+From 2025-03-17 00:00:00+00:00 to 2025-03-20 23:59:00+00:00
+Finished with total (scaled) reward: 9931.38
+Starting episode 13/26
+From 2025-04-10 00:00:00+00:00 to 2025-04-13 23:59:00+00:00
+Finished with total (scaled) reward: 12632.72
+Starting episode 14/26
+From 2025-05-08 00:00:00+00:00 to 2025-05-11 23:59:00+00:00
+Finished with total (scaled) reward: 11714.47
+Starting episode 15/26
+From 2025-06-01 00:00:00+00:00 to 2025-06-04 23:59:00+00:00
+Finished with total (scaled) reward: 12035.31
+Starting episode 16/26
+From 2025-06-29 00:00:00+00:00 to 2025-07-02 23:59:00+00:00
+Finished with total (scaled) reward: 5663.66
+Starting episode 17/26
+From 2025-07-27 00:00:00+00:00 to 2025-07-30 23:59:00+00:00
+Finished with total (scaled) reward: 3536.90
+Starting episode 18/26
+From 2025-08-20 00:00:00+00:00 to 2025-08-23 23:59:00+00:00
+Finished with total (scaled) reward: 6797.85
+Starting episode 19/26
+From 2025-09-17 00:00:00+00:00 to 2025-09-20 23:59:00+00:00
+Finished with total (scaled) reward: 11173.13
+Starting episode 20/26
+From 2025-10-11 00:00:00+00:00 to 2025-10-14 23:59:00+00:00
+Finished with total (scaled) reward: 2748.69
+Starting episode 21/26
+From 2025-11-08 00:00:00+00:00 to 2025-11-11 23:59:00+00:00
+Finished with total (scaled) reward: 926.86
+Starting episode 22/26
+From 2025-12-02 00:00:00+00:00 to 2025-12-05 23:59:00+00:00
+Finished with total (scaled) reward: 1152.88
+Starting episode 23/26
+From 2025-12-30 00:00:00+00:00 to 2026-01-02 23:59:00+00:00
+Finished with total (scaled) reward: 1353.38
+Starting episode 24/26
+From 2026-01-27 00:00:00+00:00 to 2026-01-30 23:59:00+00:00
+Finished with total (scaled) reward: 192.33
+Starting episode 25/26
+From 2026-02-20 00:00:00+00:00 to 2026-02-23 23:59:00+00:00
+Finished with total (scaled) reward: 2874.70
+Starting episode 26/26
+From 2026-03-20 00:00:00+00:00 to 2026-03-23 23:59:00+00:00
+Finished with total (scaled) reward: 1734.91
+    Config D_high_c_rate: €391,532.10
+
+Fold 1 finished in 4017.9s
+
+Results written to: ./results/generic_model_fold1_25000_results.csv
+ fold  mean_train_time_sec  A_small_mean_revenue  A_small_std_revenue  B_baseline_mean_revenue  B_baseline_std_revenue  C_large_mean_revenue  C_large_std_revenue  D_high_c_rate_mean_revenue  D_high_c_rate_std_revenue
+    1           213.439696         128220.897454         11376.982678            257551.344008            22341.759172           513903.2926          44132.55804               345678.306838               26150.839895
+Job for fold 1 completed successfully

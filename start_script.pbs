@@ -1,8 +1,8 @@
 #!/bin/bash -l
 #PBS -N rl_full_ew
-#PBS -l walltime=00:30:00
-#PBS -l mem=12gb
-#PBS -l nodes=1:ppn=6
+#PBS -l walltime=04:30:00
+#PBS -l mem=8gb
+#PBS -l nodes=1:ppn=4
 #PBS -o $VSC_HOME/Thesis_hpc/logs/full_ew.o$PBS_JOBID
 #PBS -e $VSC_HOME/Thesis_hpc/logs/full_ew.e$PBS_JOBID
 #PBS -m abe

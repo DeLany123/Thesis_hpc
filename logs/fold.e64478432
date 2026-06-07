@@ -1,0 +1,13 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) env/vsc/doduo     3) env/software/doduo
+  2) env/slurm/doduo   4) cluster/doduo
+usage: script_per_fold.py [-h] --agent {PPO,DQN,A2C,SAC,DDPG} --steps STEPS
+                          --fold FOLD [--iterations ITERATIONS]
+                          [--folds-path FOLDS_PATH] [--output-dir OUTPUT_DIR]
+                          [--k-folds K_FOLDS] [--days-per-ep DAYS_PER_EP]
+                          [--battery-cap BATTERY_CAP]
+                          [--charge-rate CHARGE_RATE]
+                          [--cycle-cost CYCLE_COST]
+script_per_fold.py: error: the following arguments are required: --agent
